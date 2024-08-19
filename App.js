@@ -27,9 +27,9 @@ export default function App() {
             tabBarIcon: ({size}) => {
                 let iconName;
                 if (route.name === 'Home') {
-                  iconName = 'ios-home';
+                  iconName = 'home';
                 } else if (route.name === 'Menu') {
-                  iconName = 'ios-menu';
+                  iconName = 'menu';
                 } else if (route.name === 'Info') {
                   iconName = 'information-circle-outline';
                 }
